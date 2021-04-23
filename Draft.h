@@ -36,7 +36,7 @@ class Draft
         
 		/* Print methods */
 		void printAllPlayers() const; //method d, given
-        //void printAvailablePlayers() const; //method h
+        void printAvailablePlayers() const; //method h
         //void printAvailablePositionPlayers(const string position) const; //method j
         //void printTeamPlayers(const string teamName) const; //method n
 };

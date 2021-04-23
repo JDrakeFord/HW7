@@ -281,16 +281,21 @@ void Draft::printAllPlayers() const
 // Returns:     nothing
 // Purpose:     Prints all available Players (if they are not drafted/taken)
 //-------------------------------------------------------------------------
-/*void Draft::printAvailablePlayers() const
+void Draft::printAvailablePlayers() const
 {
     // Print a message indicating the number of available players to the screen
+    cout << "There are: " << getNumAvailable() << " players available.";
 
     // Loop through the allPlayers[] array
-
+    for(int i = 0; i < numPlayers; i++)
+    {
         // If the Player is not taken, print them
-        
-
-}*/
+        if(!allPlayers[i].isTaken())
+        {
+            allPlayers[i].print();
+        }
+    }
+}
 
 //-------------------------------------------------------------------------
 // Name:        printAvailablePositionPlayers (method j)
