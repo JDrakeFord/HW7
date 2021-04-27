@@ -31,12 +31,12 @@ class Draft
         bool isValidPosition(const string position) const; //method i
         bool isValidName(const string name) const; //method l
         void pickByName(const string teamName); //method m
-        //void pickBestOverall(const string teamName); //method o
-        //void pickBestByPosition(const string position, const string teamName); //method p
+        void pickBestOverall(const string teamName); //method o
+        void pickBestByPosition(const string position, const string teamName); //method p
         
 		/* Print methods */
 		void printAllPlayers() const; //method d, given
         void printAvailablePlayers() const; //method h
         void printAvailablePositionPlayers(const string position) const; //method j
-        //void printTeamPlayers(const string teamName) const; //method n
+        void printTeamPlayers(const string teamName) const; //method n
 };
