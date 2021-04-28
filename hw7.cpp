@@ -131,7 +131,7 @@ int main()
 
 	NFLDraft.readFile("PlayerInfo.txt"); // Read in from the PlayerInfo text file
 
-	cout << "This NFL Draft is written by Drake Ford and Jonah!\n";
+	cout << "This NFL Draft is written by Drake Ford and Jonah Treece!\n";
 	cout << "\n\nWelcome to the 2021 NFL Draft!\n";
 	cout << "There are " << NFLDraft.getNumPlayers() << " players available.  ";
     //print out all the players that were read in from the file
