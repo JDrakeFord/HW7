@@ -52,7 +52,7 @@ string getPosition(const Draft myDraft)
     string position;
     cout << "Enter the position are you interested in >> ";
     cin >> position;
-    //while (!myDraft.isValidPosition(position))
+    while (!myDraft.isValidPosition(position))
     {
         cout << "Sorry, there are no available players for that position.\n";
         cout << "Acceptable positions (although not guaranteed to be available) are: QB, WR, OL, TE, LB, CB, DL, S\n";
@@ -83,27 +83,27 @@ void doAction(Draft &myDraft, const string teamName)
 		{
 			case 1:
 				// print all available players
-				//myDraft.printAvailablePlayers();
+				myDraft.printAvailablePlayers();
 				break;
 			case 2:
 				// print available players based on a certain position
-                //position = getPosition(myDraft);
-				//myDraft.printAvailablePositionPlayers(position);
+                position = getPosition(myDraft);
+				myDraft.printAvailablePositionPlayers(position);
 				break;
 			case 3:
 				// pick by player name
-				//myDraft.pickByName(teamName);
+				myDraft.pickByName(teamName);
 				picked = true;
 				break;
 			case 4:
 				// pick best overall ranked player
-				//myDraft.pickBestOverall(teamName);
+				myDraft.pickBestOverall(teamName);
 				picked = true;
 				break;
 			case 5:
 				// pick best ranked player based on a certain position
-                //position = getPosition(myDraft);
-    			//myDraft.pickBestByPosition(position, teamName);
+                position = getPosition(myDraft);
+    			myDraft.pickBestByPosition(position, teamName);
 				picked = true;
 				break;
 			case 6:
@@ -129,11 +129,11 @@ int main()
     // You, the user, are drafting as the first team, TeamNames[0]
     string teamNames[NUM_TEAMS] = {"Chiefs", "Cowboys", "Patriots", "Panthers"};
 
-	//NFLDraft.readFile("PlayerInfo.txt"); // Read in from the PlayerInfo text file
+	NFLDraft.readFile("PlayerInfo.txt"); // Read in from the PlayerInfo text file
 
-	cout << "This NFL Draft is written by STUDENT NAME HERE!\n";
+	cout << "This NFL Draft is written by Drake Ford and Jonah!\n";
 	cout << "\n\nWelcome to the 2021 NFL Draft!\n";
-	//cout << "There are " << NFLDraft.getNumPlayers() << " players available.  ";
+	cout << "There are " << NFLDraft.getNumPlayers() << " players available.  ";
     //print out all the players that were read in from the file
 	NFLDraft.printAllPlayers();
 
@@ -156,10 +156,10 @@ int main()
 
 	// PRINT RESULTS --------------------------------------------------------------------
 	cout << "\n\nDRAFT PICKING FOR 2021 IS OVER. HERE ARE THE PLAYERS ADDED TO YOUR TEAM: \n";
-	//NFLDraft.printTeamPlayers(teamNames[0]);
+	NFLDraft.printTeamPlayers(teamNames[0]);
 
     //Show how many players are remaining after all of the draft picks
-    //cout << "\n\nAfter all teams have made their choices, there are " << NFLDraft.getNumAvailable() << " players remaining.\n";
+    cout << "\n\nAfter all teams have made their choices, there are " << NFLDraft.getNumAvailable() << " players remaining.\n";
 	
     // Print a parting message if desired
 

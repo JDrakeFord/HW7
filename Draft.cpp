@@ -133,6 +133,7 @@ void Draft::readFile(const string filename)
 
             // increment the number of players on the team
             numPlayers++;
+            numAvailable++;
         }
 
     // Close the file
@@ -227,7 +228,7 @@ void Draft::pickByName(const string teamName) {
                     playerFoundIndex = i;
                 }
             }
-        } while (validName); // If it is an invalid name, continue asking for more input
+        } while (!validName); // If it is an invalid name, continue asking for more input
 
         // Check for available Player (is he already drafted/taken?)
         // If not drafted/taken, draft that Player (at that found index) to the
