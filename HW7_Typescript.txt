@@ -1,0 +1,690 @@
+Script started on 2021-04-28 15:39:45-0500
+]0;jdf028@turing: ~/HW7[01;32mjdf028@turing[00m:[01;34m~/HW7[00m$ ./hw7.exe
+This NFL Draft is written by Drake Ford and Jonah Treece!
+
+
+Welcome to the 2021 NFL Draft!
+There are 25 players available.  Here are all the players in the draft: 
+  Name: Trevor Lawrence
+     Position: QB
+     Overall Rank: 2
+     Position Rank: 2
+  Name: Zach Wilson
+     Position: QB
+     Overall Rank: 11
+     Position Rank: 4
+  Name: JaMarr Chase
+     Position: WR
+     Overall Rank: 23
+     Position Rank: 5
+  Name: Penei Sewell
+     Position: OL
+     Overall Rank: 12
+     Position Rank: 3
+  Name: Kyle Pitts
+     Position: TE
+     Overall Rank: 3
+     Position Rank: 1
+  Name: Caleb Farley
+     Position: CB
+     Overall Rank: 6
+     Position Rank: 1
+  Name: Micah Parsons
+     Position: LB
+     Overall Rank: 10
+     Position Rank: 1
+  Name: Jaylen Waddle
+     Position: WR
+     Overall Rank: 19
+     Position Rank: 3
+  Name: DeVonta Smith
+     Position: WR
+     Overall Rank: 9
+     Position Rank: 2
+  Name: Trey Lance
+     Position: QB
+     Overall Rank: 7
+     Position Rank: 3
+  Name: Giovanni Viridian
+     Position: QB
+     Overall Rank: 1
+     Position Rank: 1
+  Name: Kwity Paye
+     Position: DL
+     Overall Rank: 24
+     Position Rank: 2
+  Name: Christian Darrisaw
+     Position: OL
+     Overall Rank: 5
+     Position Rank: 1
+  Name: Rashawn Slater
+     Position: OL
+     Overall Rank: 14
+     Position Rank: 5
+  Name: Patrick SurtainII
+     Position: CB
+     Overall Rank: 18
+     Position Rank: 2
+  Name: Trevon Moehrig
+     Position: S
+     Overall Rank: 16
+     Position Rank: 1
+  Name: Jeremiah Owusu-Koramoah
+     Position: LB
+     Overall Rank: 21
+     Position Rank: 3
+  Name: Azeez Ojulari
+     Position: LB
+     Overall Rank: 15
+     Position Rank: 2
+  Name: Alijah Vera-Tucker
+     Position: OL
+     Overall Rank: 8
+     Position Rank: 2
+  Name: Rondale Moore
+     Position: WR
+     Overall Rank: 20
+     Position Rank: 4
+  Name: Jaelan Phillips
+     Position: DL
+     Overall Rank: 17
+     Position Rank: 1
+  Name: Mac Jones
+     Position: QB
+     Overall Rank: 22
+     Position Rank: 5
+  Name: Teven Jenkins
+     Position: OL
+     Overall Rank: 13
+     Position Rank: 4
+  Name: Kadarius Toney
+     Position: WR
+     Overall Rank: 4
+     Position Rank: 1
+  Name: Christian Barmore
+     Position: DL
+     Overall Rank: 25
+     Position Rank: 3
+
+=============== ROUND 1 ===============
+
+-----Team: Chiefs -----
+Please Choose From the Following Options
+  1. Print all available players
+  2. Print available players based on position
+  3. Pick by player name
+  4. Pick best overall ranked player
+  5. Pick best ranked player based on position
+  6. Skip draft pick
+Enter your choice >> 1
+There are: 25 players available.  Name: Trevor Lawrence
+     Position: QB
+     Overall Rank: 2
+     Position Rank: 2
+  Name: Zach Wilson
+     Position: QB
+     Overall Rank: 11
+     Position Rank: 4
+  Name: JaMarr Chase
+     Position: WR
+     Overall Rank: 23
+     Position Rank: 5
+  Name: Penei Sewell
+     Position: OL
+     Overall Rank: 12
+     Position Rank: 3
+  Name: Kyle Pitts
+     Position: TE
+     Overall Rank: 3
+     Position Rank: 1
+  Name: Caleb Farley
+     Position: CB
+     Overall Rank: 6
+     Position Rank: 1
+  Name: Micah Parsons
+     Position: LB
+     Overall Rank: 10
+     Position Rank: 1
+  Name: Jaylen Waddle
+     Position: WR
+     Overall Rank: 19
+     Position Rank: 3
+  Name: DeVonta Smith
+     Position: WR
+     Overall Rank: 9
+     Position Rank: 2
+  Name: Trey Lance
+     Position: QB
+     Overall Rank: 7
+     Position Rank: 3
+  Name: Giovanni Viridian
+     Position: QB
+     Overall Rank: 1
+     Position Rank: 1
+  Name: Kwity Paye
+     Position: DL
+     Overall Rank: 24
+     Position Rank: 2
+  Name: Christian Darrisaw
+     Position: OL
+     Overall Rank: 5
+     Position Rank: 1
+  Name: Rashawn Slater
+     Position: OL
+     Overall Rank: 14
+     Position Rank: 5
+  Name: Patrick SurtainII
+     Position: CB
+     Overall Rank: 18
+     Position Rank: 2
+  Name: Trevon Moehrig
+     Position: S
+     Overall Rank: 16
+     Position Rank: 1
+  Name: Jeremiah Owusu-Koramoah
+     Position: LB
+     Overall Rank: 21
+     Position Rank: 3
+  Name: Azeez Ojulari
+     Position: LB
+     Overall Rank: 15
+     Position Rank: 2
+  Name: Alijah Vera-Tucker
+     Position: OL
+     Overall Rank: 8
+     Position Rank: 2
+  Name: Rondale Moore
+     Position: WR
+     Overall Rank: 20
+     Position Rank: 4
+  Name: Jaelan Phillips
+     Position: DL
+     Overall Rank: 17
+     Position Rank: 1
+  Name: Mac Jones
+     Position: QB
+     Overall Rank: 22
+     Position Rank: 5
+  Name: Teven Jenkins
+     Position: OL
+     Overall Rank: 13
+     Position Rank: 4
+  Name: Kadarius Toney
+     Position: WR
+     Overall Rank: 4
+     Position Rank: 1
+  Name: Christian Barmore
+     Position: DL
+     Overall Rank: 25
+     Position Rank: 3
+
+-----Team: Chiefs -----
+Please Choose From the Following Options
+  1. Print all available players
+  2. Print available players based on position
+  3. Pick by player name
+  4. Pick best overall ranked player
+  5. Pick best ranked player based on position
+  6. Skip draft pick
+Enter your choice >> 2
+Enter the position are you interested in >> QB
+  Name: Trevor Lawrence
+     Position: QB
+     Overall Rank: 2
+     Position Rank: 2
+  Name: Zach Wilson
+     Position: QB
+     Overall Rank: 11
+     Position Rank: 4
+  Name: Trey Lance
+     Position: QB
+     Overall Rank: 7
+     Position Rank: 3
+  Name: Giovanni Viridian
+     Position: QB
+     Overall Rank: 1
+     Position Rank: 1
+  Name: Mac Jones
+     Position: QB
+     Overall Rank: 22
+     Position Rank: 5
+
+-----Team: Chiefs -----
+Please Choose From the Following Options
+  1. Print all available players
+  2. Print available players based on position
+  3. Pick by player name
+  4. Pick best overall ranked player
+  5. Pick best ranked player based on position
+  6. Skip draft pick
+Enter your choice >> 2
+Enter the position are you interested in >> WR
+  Name: JaMarr Chase
+     Position: WR
+     Overall Rank: 23
+     Position Rank: 5
+  Name: Jaylen Waddle
+     Position: WR
+     Overall Rank: 19
+     Position Rank: 3
+  Name: DeVonta Smith
+     Position: WR
+     Overall Rank: 9
+     Position Rank: 2
+  Name: Rondale Moore
+     Position: WR
+     Overall Rank: 20
+     Position Rank: 4
+  Name: Kadarius Toney
+     Position: WR
+     Overall Rank: 4
+     Position Rank: 1
+
+-----Team: Chiefs -----
+Please Choose From the Following Options
+  1. Print all available players
+  2. Print available players based on position
+  3. Pick by player name
+  4. Pick best overall ranked player
+  5. Pick best ranked player based on position
+  6. Skip draft pick
+Enter your choice >> 2
+Enter the position are you interested in >> OL
+  Name: Penei Sewell
+     Position: OL
+     Overall Rank: 12
+     Position Rank: 3
+  Name: Christian Darrisaw
+     Position: OL
+     Overall Rank: 5
+     Position Rank: 1
+  Name: Rashawn Slater
+     Position: OL
+     Overall Rank: 14
+     Position Rank: 5
+  Name: Alijah Vera-Tucker
+     Position: OL
+     Overall Rank: 8
+     Position Rank: 2
+  Name: Teven Jenkins
+     Position: OL
+     Overall Rank: 13
+     Position Rank: 4
+
+-----Team: Chiefs -----
+Please Choose From the Following Options
+  1. Print all available players
+  2. Print available players based on position
+  3. Pick by player name
+  4. Pick best overall ranked player
+  5. Pick best ranked player based on position
+  6. Skip draft pick
+Enter your choice >> 3
+Please input the player's last name.
+Slater
+Player Slater has been drafted to the Chiefs
+
+=============== ROUND 2 ===============
+
+-----Team: Chiefs -----
+Please Choose From the Following Options
+  1. Print all available players
+  2. Print available players based on position
+  3. Pick by player name
+  4. Pick best overall ranked player
+  5. Pick best ranked player based on position
+  6. Skip draft pick
+Enter your choice >> 2
+Enter the position are you interested in >> OL
+  Name: Penei Sewell
+     Position: OL
+     Overall Rank: 12
+     Position Rank: 3
+  Name: Christian Darrisaw
+     Position: OL
+     Overall Rank: 5
+     Position Rank: 1
+  Name: Alijah Vera-Tucker
+     Position: OL
+     Overall Rank: 8
+     Position Rank: 2
+  Name: Teven Jenkins
+     Position: OL
+     Overall Rank: 13
+     Position Rank: 4
+
+-----Team: Chiefs -----
+Please Choose From the Following Options
+  1. Print all available players
+  2. Print available players based on position
+  3. Pick by player name
+  4. Pick best overall ranked player
+  5. Pick best ranked player based on position
+  6. Skip draft pick
+Enter your choice >> 2
+Enter the position are you interested in >> QB
+  Name: Trevor Lawrence
+     Position: QB
+     Overall Rank: 2
+     Position Rank: 2
+  Name: Zach Wilson
+     Position: QB
+     Overall Rank: 11
+     Position Rank: 4
+  Name: Trey Lance
+     Position: QB
+     Overall Rank: 7
+     Position Rank: 3
+  Name: Giovanni Viridian
+     Position: QB
+     Overall Rank: 1
+     Position Rank: 1
+  Name: Mac Jones
+     Position: QB
+     Overall Rank: 22
+     Position Rank: 5
+
+-----Team: Chiefs -----
+Please Choose From the Following Options
+  1. Print all available players
+  2. Print available players based on position
+  3. Pick by player name
+  4. Pick best overall ranked player
+  5. Pick best ranked player based on position
+  6. Skip draft pick
+Enter your choice >> 1
+There are: 24 players available.  Name: Trevor Lawrence
+     Position: QB
+     Overall Rank: 2
+     Position Rank: 2
+  Name: Zach Wilson
+     Position: QB
+     Overall Rank: 11
+     Position Rank: 4
+  Name: JaMarr Chase
+     Position: WR
+     Overall Rank: 23
+     Position Rank: 5
+  Name: Penei Sewell
+     Position: OL
+     Overall Rank: 12
+     Position Rank: 3
+  Name: Kyle Pitts
+     Position: TE
+     Overall Rank: 3
+     Position Rank: 1
+  Name: Caleb Farley
+     Position: CB
+     Overall Rank: 6
+     Position Rank: 1
+  Name: Micah Parsons
+     Position: LB
+     Overall Rank: 10
+     Position Rank: 1
+  Name: Jaylen Waddle
+     Position: WR
+     Overall Rank: 19
+     Position Rank: 3
+  Name: DeVonta Smith
+     Position: WR
+     Overall Rank: 9
+     Position Rank: 2
+  Name: Trey Lance
+     Position: QB
+     Overall Rank: 7
+     Position Rank: 3
+  Name: Giovanni Viridian
+     Position: QB
+     Overall Rank: 1
+     Position Rank: 1
+  Name: Kwity Paye
+     Position: DL
+     Overall Rank: 24
+     Position Rank: 2
+  Name: Christian Darrisaw
+     Position: OL
+     Overall Rank: 5
+     Position Rank: 1
+  Name: Patrick SurtainII
+     Position: CB
+     Overall Rank: 18
+     Position Rank: 2
+  Name: Trevon Moehrig
+     Position: S
+     Overall Rank: 16
+     Position Rank: 1
+  Name: Jeremiah Owusu-Koramoah
+     Position: LB
+     Overall Rank: 21
+     Position Rank: 3
+  Name: Azeez Ojulari
+     Position: LB
+     Overall Rank: 15
+     Position Rank: 2
+  Name: Alijah Vera-Tucker
+     Position: OL
+     Overall Rank: 8
+     Position Rank: 2
+  Name: Rondale Moore
+     Position: WR
+     Overall Rank: 20
+     Position Rank: 4
+  Name: Jaelan Phillips
+     Position: DL
+     Overall Rank: 17
+     Position Rank: 1
+  Name: Mac Jones
+     Position: QB
+     Overall Rank: 22
+     Position Rank: 5
+  Name: Teven Jenkins
+     Position: OL
+     Overall Rank: 13
+     Position Rank: 4
+  Name: Kadarius Toney
+     Position: WR
+     Overall Rank: 4
+     Position Rank: 1
+  Name: Christian Barmore
+     Position: DL
+     Overall Rank: 25
+     Position Rank: 3
+
+-----Team: Chiefs -----
+Please Choose From the Following Options
+  1. Print all available players
+  2. Print available players based on position
+  3. Pick by player name
+  4. Pick best overall ranked player
+  5. Pick best ranked player based on position
+  6. Skip draft pick
+Enter your choice >> 4
+Player Viridian has been drafted to the Chiefs
+
+=============== ROUND 3 ===============
+
+-----Team: Chiefs -----
+Please Choose From the Following Options
+  1. Print all available players
+  2. Print available players based on position
+  3. Pick by player name
+  4. Pick best overall ranked player
+  5. Pick best ranked player based on position
+  6. Skip draft pick
+Enter your choice >> 6 5
+Enter the position are you interested in >> QB
+Player Lawrence has been drafted to the Chiefs
+
+
+DRAFT PICKING FOR 2021 IS OVER. HERE ARE THE PLAYERS ADDED TO YOUR TEAM: 
+  Name: Trevor Lawrence
+     Position: QB
+     Overall Rank: 2
+     Position Rank: 2
+  Name: Giovanni Viridian
+     Position: QB
+     Overall Rank: 1
+     Position Rank: 1
+  Name: Rashawn Slater
+     Position: OL
+     Overall Rank: 14
+     Position Rank: 5
+
+
+After all teams have made their choices, there are 22 players remaining.
+
+
+]0;jdf028@turing: ~/HW7[01;32mjdf028@turing[00m:[01;34m~/HW7[00m$ ./hw7.exe
+This NFL Draft is written by Drake Ford and Jonah Treece!
+
+
+Welcome to the 2021 NFL Draft!
+There are 25 players available.  Here are all the players in the draft: 
+  Name: Trevor Lawrence
+     Position: QB
+     Overall Rank: 2
+     Position Rank: 2
+  Name: Zach Wilson
+     Position: QB
+     Overall Rank: 11
+     Position Rank: 4
+  Name: JaMarr Chase
+     Position: WR
+     Overall Rank: 23
+     Position Rank: 5
+  Name: Penei Sewell
+     Position: OL
+     Overall Rank: 12
+     Position Rank: 3
+  Name: Kyle Pitts
+     Position: TE
+     Overall Rank: 3
+     Position Rank: 1
+  Name: Caleb Farley
+     Position: CB
+     Overall Rank: 6
+     Position Rank: 1
+  Name: Micah Parsons
+     Position: LB
+     Overall Rank: 10
+     Position Rank: 1
+  Name: Jaylen Waddle
+     Position: WR
+     Overall Rank: 19
+     Position Rank: 3
+  Name: DeVonta Smith
+     Position: WR
+     Overall Rank: 9
+     Position Rank: 2
+  Name: Trey Lance
+     Position: QB
+     Overall Rank: 7
+     Position Rank: 3
+  Name: Giovanni Viridian
+     Position: QB
+     Overall Rank: 1
+     Position Rank: 1
+  Name: Kwity Paye
+     Position: DL
+     Overall Rank: 24
+     Position Rank: 2
+  Name: Christian Darrisaw
+     Position: OL
+     Overall Rank: 5
+     Position Rank: 1
+  Name: Rashawn Slater
+     Position: OL
+     Overall Rank: 14
+     Position Rank: 5
+  Name: Patrick SurtainII
+     Position: CB
+     Overall Rank: 18
+     Position Rank: 2
+  Name: Trevon Moehrig
+     Position: S
+     Overall Rank: 16
+     Position Rank: 1
+  Name: Jeremiah Owusu-Koramoah
+     Position: LB
+     Overall Rank: 21
+     Position Rank: 3
+  Name: Azeez Ojulari
+     Position: LB
+     Overall Rank: 15
+     Position Rank: 2
+  Name: Alijah Vera-Tucker
+     Position: OL
+     Overall Rank: 8
+     Position Rank: 2
+  Name: Rondale Moore
+     Position: WR
+     Overall Rank: 20
+     Position Rank: 4
+  Name: Jaelan Phillips
+     Position: DL
+     Overall Rank: 17
+     Position Rank: 1
+  Name: Mac Jones
+     Position: QB
+     Overall Rank: 22
+     Position Rank: 5
+  Name: Teven Jenkins
+     Position: OL
+     Overall Rank: 13
+     Position Rank: 4
+  Name: Kadarius Toney
+     Position: WR
+     Overall Rank: 4
+     Position Rank: 1
+  Name: Christian Barmore
+     Position: DL
+     Overall Rank: 25
+     Position Rank: 3
+
+=============== ROUND 1 ===============
+
+-----Team: Chiefs -----
+Please Choose From the Following Options
+  1. Print all available players
+  2. Print available players based on position
+  3. Pick by player name
+  4. Pick best overall ranked player
+  5. Pick best ranked player based on position
+  6. Skip draft pick
+Enter your choice >> 6
+
+=============== ROUND 2 ===============
+
+-----Team: Chiefs -----
+Please Choose From the Following Options
+  1. Print all available players
+  2. Print available players based on position
+  3. Pick by player name
+  4. Pick best overall ranked player
+  5. Pick best ranked player based on position
+  6. Skip draft pick
+Enter your choice >> 6
+
+=============== ROUND 3 ===============
+
+-----Team: Chiefs -----
+Please Choose From the Following Options
+  1. Print all available players
+  2. Print available players based on position
+  3. Pick by player name
+  4. Pick best overall ranked player
+  5. Pick best ranked player based on position
+  6. Skip draft pick
+Enter your choice >> 6
+
+
+DRAFT PICKING FOR 2021 IS OVER. HERE ARE THE PLAYERS ADDED TO YOUR TEAM: 
+
+
+After all teams have made their choices, there are 25 players remaining.
+
+
+]0;jdf028@turing: ~/HW7[01;32mjdf028@turing[00m:[01;34m~/HW7[00m$ script[K[K[K[K[K[Kexit
+exit
+
+Script done on 2021-04-28 15:42:19-0500
